@@ -1,0 +1,46 @@
+/* Header Slider  *//* Header Slider  *//* Header Slider  *//* Header Slider  *//* Header Slider  *//* Header Slider  *//* Header Slider  */
+.header__slider{
+background: url('../img/haqqimizdBg.png');
+background-size: cover;
+background-position: center;
+height:72rem;
+}
+.header__slider__gradientBackground{
+width: 50%;
+height: 72rem;
+background: linear-gradient(270deg, rgba(0, 0, 0, 0.58) 3.9%, rgba(217, 217, 217, 0) 111.33%);
+transform: rotate(-180deg);       
+}
+ @media (max-width:768px){
+.header__slider__gradientBackground{
+width: 100%;
+}
+}
+.haqqimizda__tittles{
+    margin-bottom: 17rem;
+}
+.haqqimizda__tittles__paragraph{
+display: flex;
+justify-content: center;   
+}
+.haqqimizda__tittles__paragraph p{
+font-family: var(--main-font);
+font-size: 2.2rem;
+font-weight: 400;
+width: 70%;  
+}
+.haqqimizda__tittles__head{
+display: flex;
+justify-content: center;
+}
+h1{
+display: flex;
+justify-content: center;
+width: 19.4rem;
+height: 13.7rem;
+font-size: 2.2rem;  
+}
+.nav__menuList >ul> li:nth-child(2)>a{
+    color: var(--color-yellow);
+
+}

@@ -1,0 +1,35 @@
+$(document).ready(function(){
+    $(".nav__right__language").click(function(){
+        $(".languageToggle").toggle("slow")
+    })
+})
+$(document).ready(function(){
+    $(".fa-xmark").click(function(){
+        $(".toogleMenu").hide("slow")
+    })
+})
+$(document).ready(function(){
+$(".nav__menuIcon").click(function(){
+$(".toogleMenu").show("slow")
+})
+})
+$(document).ready(function(){
+$(".toogleHaqqimizda").click(function(){
+$(".toogleHaqqimizda__ul").toggle("slow")
+})
+})
+$(document).ready(function(){
+$(".haqqimizda").mouseenter(function(){
+$(".nav__menuList__dropdown").show("slow")
+})
+})
+$(document).ready(function(){
+$(".nav__menuList__dropdown").mouseleave(function(){
+$(".nav__menuList__dropdown").hide("slow")
+})
+})
+$(document).ready(function(){
+$("body").click(function(){
+$(".nav__menuList__dropdown").hide("slow")
+})
+})

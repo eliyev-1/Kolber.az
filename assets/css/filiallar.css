@@ -1,0 +1,124 @@
+.container__branches{
+width: 95%;
+margin: 5rem 0;
+display: flex;
+justify-content: center;
+}
+    
+.container__branches__head{
+display: flex;
+justify-content: center;
+align-items: center;
+    
+}
+.container__branches__head >h1{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 19.4rem;
+height: 9.9rem;
+}
+.container__branches__items,.container__products__items{
+display: grid;
+grid-template-columns: auto auto auto ;
+flex-wrap: wrap;
+gap: 3rem;
+}
+.container__branches__item{
+  
+ width: 41.7rem;
+
+background-color: var(--color-black);
+border: 0.1rem solid var(--color-yellow);
+border-radius: 15px;
+mix-blend-mode: normal;
+box-shadow: 0px 4px 4px rgba(106, 106, 106, 0.1);
+}
+.container__branches__item h1{
+color: var(--color-yellow);
+display: flex;
+
+flex-wrap: wrap;
+width: 158px;
+font-size: 2.2rem;
+height: 79px;
+
+}
+.container__branches__item p{
+color: var(--color-white);
+ line-height: 150.69%;
+font-weight: 400;
+bottom: 0;
+font-size: 1.6rem;
+height: 6rem;
+width: 25.6rem;
+
+}
+.container__branches__item__tittleAndArrow{
+   
+    position: relative;
+}
+.container__branches__item i{
+position: absolute;
+top: 0;
+bottom: 0rem;
+right: 0;
+
+
+cursor: pointer;
+ bottom: 1rem;
+
+width: 4.5rem;
+height: 4.5rem;
+border-radius: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 0.1rem solid var(--color-yellow);
+color: var(--color-yellow);
+}
+
+.container__branches__item__tittleAndArrow{
+    display: flex;
+    column-gap: 4.5rem;
+}
+.container__branches__item__content{
+    padding: 1rem;
+}
+.map{
+    margin-top: 5.3rem;
+    margin-bottom: 5rem;
+    mix-blend-mode: normal;
+box-shadow: 0px 9px 10px rgba(187, 187, 187, 0.28);
+border-radius: 1.5rem;
+}
+    @media (max-width:1350px){
+.container__branches__items{ 
+display: grid;
+grid-template-columns: auto auto   ;
+flex-wrap: wrap;
+gap: 3rem;  
+}
+}
+
+@media (max-width:900px){
+.container__branches__items{ 
+display: grid;
+grid-template-columns: auto    ;
+flex-wrap: wrap;
+gap: 3rem;  
+}
+
+}
+@media (max-width:567px){
+
+.container__branches__item{
+    width: 100%;
+}
+
+
+}
+.nav__menuList >ul> li:nth-child(2)>a{
+    color: var(--color-yellow);
+
+}
